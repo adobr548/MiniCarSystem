@@ -12,7 +12,6 @@
     <?php
     
     foreach($currentHolders as $index => $currentHolder){
-
         echo
             "<tr>"
             . "<td>{$currentHolder->masinosNr}</td>"
@@ -20,7 +19,7 @@
             . "<td>{$currentHolder->modelis}</td>"
             . "<td>{$currentHolder->dabartinisValdytojas}</td>"
             . "<td>{$currentHolder->segmentoPav}</td>"
-            . "<td>{$statuses[$index]->bukle}</td>"
+            //. "<td>{$statuses[$index]->bukle}</td>"
             . "</tr>\n";
         
         foreach($lastHolders as $lastHolder){
